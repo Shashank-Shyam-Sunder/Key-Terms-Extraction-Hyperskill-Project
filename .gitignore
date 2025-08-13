@@ -3,6 +3,8 @@
 
 # Allow only specific files to be tracked
 !key_terms.py
+!Key\ Terms\ Extraction/
+!Key\ Terms\ Extraction/task/
 !Key\ Terms\ Extraction/task/key_terms.py
 !news.xml
 !Key\ Terms\ Extraction/task/news.xml
