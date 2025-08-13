@@ -12,6 +12,7 @@
 !Key\ Terms\ Extraction/task/news3.xml
 !LICENSE
 !README.md
+!requirements_project.txt
 !.gitignore
 
 # Explicitly ignore requirements.txt

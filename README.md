@@ -24,14 +24,13 @@ This project analyzes news articles stored in XML format and extracts the most r
 ```
 Key_Terms_Extraction/
 ├── Key Terms Extraction/
-│   ├── task/
-│   │   ├── key_terms.py          # Main extraction script
-│   │   ├── news.xml              # Primary news dataset (11 articles)
-│   │   ├── news2.xml             # Secondary news dataset (2 articles)
-│   │   ├── news3.xml             # Tertiary news dataset (11 articles)
-│   │   └── Support_files/        # Additional support and reference files
-│   └── [Additional task stages]  # Multi-stage learning modules
-└── requirements.txt              # Project dependencies
+│   └── task/
+│       ├── key_terms.py          # Main extraction script
+│       ├── news.xml              # Primary news dataset (11 articles)
+│       ├── news2.xml             # Secondary news dataset (2 articles)
+│       └── news3.xml             # Tertiary news dataset (11 articles)
+├── requirements_project.txt      # Project dependencies
+└── LICENSE                       # MIT License file
 ```
 
 ## 🛠️ Technology Stack
@@ -41,7 +40,6 @@ Key_Terms_Extraction/
 - **NLTK**: Natural Language Toolkit for text processing
 - **scikit-learn**: Machine learning library for TF-IDF vectorization
 - **pandas**: Data manipulation and analysis
-- **pytest**: Testing framework
 
 ## 📋 Prerequisites
 
@@ -58,7 +56,7 @@ Key_Terms_Extraction/
 
 2. **Install required dependencies**
    ```bash
-   pip install -r requirements.txt
+   pip install -r requirements_project.txt
    ```
 
 3. **Download NLTK data** (run once)
@@ -148,14 +146,6 @@ The news XML files follow this structure:
 - Economic analysis
 - Entertainment and digital media
 
-## 🧪 Testing
-
-The project includes comprehensive testing infrastructure:
-
-```bash
-# Run tests
-pytest Key\ Terms\ Extraction/task/tests.py
-```
 
 ## 🤝 Contributing
 
